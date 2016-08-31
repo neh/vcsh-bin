@@ -1,0 +1,4 @@
+*
+!/bin/*
+!/.gitignore.d
+!/.gitignore.d/bin
