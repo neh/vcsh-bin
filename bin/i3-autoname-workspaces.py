@@ -36,7 +36,7 @@ import sys
 #   http://fortawesome.github.io/Font-Awesome/icons/
 FA_DEFAULT = '\uf069'
 FA_CHROME = '\uf268'
-FA_CODE = '\uf121'
+FA_CODE = '\uf044'
 FA_FILE_PDF_O = '\uf1c1'
 FA_FILE_TEXT_O = '\uf0f6'
 FA_FILES_O = '\uf0c5'
@@ -44,7 +44,8 @@ FA_FIREFOX = '\uf269'
 FA_EMAIL = '\uf0e0'
 FA_SLACK = '\uf198'
 FA_CHAT = '\uf075'
-FA_MUSIC = '\uf001'
+FA_MUSIC = '\uf025'
+FA_VIDEO = '\uf008'
 FA_PICTURE_O = '\uf03e'
 FA_SPOTIFY = '\uf1bc'
 FA_TERMINAL = '\uf120'
@@ -56,14 +57,13 @@ WINDOW_ICONS = {
     'Thunderbird': FA_EMAIL,
     'Slack': FA_SLACK,
     'Signal': FA_CHAT,
-    'Franz': FA_CHAT,
-    'vim': FA_CODE,
     'subl': FA_CODE,
     'subl3': FA_CODE,
     'spotify': FA_MUSIC,
     'Firefox': FA_FIREFOX,
     'libreoffice': FA_FILE_TEXT_O,
     'feh': FA_PICTURE_O,
+    'mpv': FA_VIDEO,
     'mupdf': FA_FILE_PDF_O,
     'evince': FA_FILE_PDF_O,
     'thunar': FA_FILES_O,
