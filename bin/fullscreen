@@ -1,0 +1,8 @@
+#!/bin/bash
+
+role=$(xprop -id $(xdotool getactivewindow) | grep WINDOW_ROLE | cut -d' ' -f 3)
+if [ "$role" = '"browser"' ] ; then
+    xdotool key F11
+else
+    i3-msg "fullscreen toggle"
+fi
